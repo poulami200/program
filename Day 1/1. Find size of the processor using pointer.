@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{
+	double *p;
+	double a;
+  p= &a;
+	printf("size of procesor:%d bit",sizeof(p)*8);
+	return 0;
+}
