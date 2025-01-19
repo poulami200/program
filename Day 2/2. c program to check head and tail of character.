@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+ {
+   char head;
+   char h;  
+    printf("Enter character for head");
+    scanf ("c", & head);
+    if (head =='h')
+    printf ("head");
+    else
+     printf(" Tail");
+    return 0;
+}
