@@ -1,23 +1,22 @@
 #include<stdio.h>
 int main()
 {
-int n,r,rev;
+int n,r,rev=0;
 printf("Enter any num ");
 scanf("%d",&n);
-int p=n;
-while(n>0)
+while(n!=0)
 {
 	r=n%10;
 	rev= rev*10+r;
 	n=n/10;
 }
-if(rev==p)
+if(n==rev)
    {
-	printf("the num is a pallindrome",p);
+	printf("the num is a pallindrome");
    }
    else
     {
-	printf("the num is not a pallindrome",p);
+	printf("the num is not a pallindrome");
    }
    return 0;
 }
